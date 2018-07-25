@@ -1,16 +1,14 @@
 <?php
     //======================================================================
-    // Autoload
+    // Classe de consultas - Camada de Persistência
     //======================================================================
 
     //-----------------------------------------------------
     // Descrição do recurso
     //-----------------------------------------------------
 
-    /* É uma função que colocamos dentro da nossa aplicação PHP
-       para que ele carregue automaticamente sem precisar ficar
-       utilizando o require toda vez que precisarmos usar uma 
-       classe. 
+    /**
+     * Essa classe é responsável por fazer todas as transações com o banco de dados
     */
 
     class InstrutorDAO {
