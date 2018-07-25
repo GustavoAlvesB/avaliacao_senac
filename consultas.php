@@ -13,7 +13,7 @@
 
     require_once("config.php");
 
-    $iDAO = new InstrutorDAO();;
+    $iDAO = new InstrutorDAO();
 
     if (isset($_GET['instrutores'])) {
         if($_GET['instrutores'] === "") {
